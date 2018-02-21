@@ -35,7 +35,7 @@ function startGame() {
     ]).then(function (answer) {
         if (answer.play) {
             console.log('')
-            console.log('You get 10 guesses to guess the right NHL team name.')
+            console.log('You get 10 guesses to guess the right NBA team name.')
             console.log('Good Luck!')
             newGame()
         } else {
